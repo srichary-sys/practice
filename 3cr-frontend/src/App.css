@@ -1,0 +1,163 @@
+/* General Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background for body */
+  color: white; /* White text for dark mode */
+}
+
+/* Header and Main Section */
+body.dark-mode .App-header {
+  background-color: #1f1f1f; /* Darker background for the header */
+  color: white; /* White text for the header */
+}
+
+/* Links and Button Links */
+body.dark-mode .App-link {
+  color: #61dafb; /* Light blue for links in dark mode */
+}
+
+/* Search bar in dark mode */
+body.dark-mode .form-control {
+  background-color: #333; /* Dark background for input */
+  color: white; /* White text for input */
+  border: 1px solid #444; /* Light border for input fields */
+}
+
+body.dark-mode .form-select {
+  background-color: #333; /* Dark background for select dropdown */
+  color: white; /* White text for select dropdown */
+  border: 1px solid #444; /* Light border */
+}
+
+/* Search bar button */
+body.dark-mode .btn-primary {
+  background-color: #555; /* Dark button background */
+  border-color: #555; /* Button border */
+  color: white; /* White text for button */
+}
+
+body.dark-mode .btn-primary:hover {
+  background-color: #777; /* Lighter background when hovered */
+  border-color: #777; /* Lighter border */
+}
+
+/* Table in dark mode */
+body.dark-mode .table {
+  background-color: #333; /* Dark background for the table */
+  color: white; /* White text for the table */
+}
+
+body.dark-mode .table-striped tbody tr:nth-child(odd) {
+  background-color: #444; /* Slightly lighter background for odd rows */
+}
+
+body.dark-mode .table thead {
+  background-color: #555; /* Darker background for table headers */
+}
+
+body.dark-mode .table th,
+body.dark-mode .table td {
+  border-color: #555; /* Lighter border for table cells */
+}
+
+/* Table hover effects */
+body.dark-mode .table tbody tr:hover {
+  background-color: #666; /* Lighter background when row is hovered */
+}
+
+/* Pagination Buttons in Dark Mode */
+body.dark-mode .btn-outline-primary {
+  border-color: #ddd; /* Light border for pagination buttons */
+  color: #ddd; /* Light text color */
+}
+
+body.dark-mode .btn-outline-primary:hover {
+  background-color: #555; /* Darker background when hovered */
+  color: white; /* White text */
+}
+
+body.dark-mode .btn-secondary {
+  background-color: #444; /* Dark background for secondary buttons */
+  border-color: #444; /* Dark border */
+  color: white; /* White text */
+}
+
+body.dark-mode .btn-secondary:hover {
+  background-color: #555; /* Lighter background when hovered */
+  border-color: #555; /* Lighter border */
+}
+
+/* Dark Mode Button Styles */
+body.dark-mode .btn-link {
+  color: #61dafb; /* Light blue for links in dark mode */
+}
+
+/* Total Pages Section */
+body.dark-mode .total-pages {
+  color: #ddd; /* Light text color for total pages */
+}
+
+/* Table Column Headers */
+body.dark-mode .table th {
+  background-color: #555;
+  color: #ddd;
+}
+
+/* Table Column Data */
+body.dark-mode .table td {
+  background-color: #333;
+}
+
+/* Modal Styles */
+body.dark-mode .modal-content {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode .modal-header {
+  background-color: #444;
+  color: white;
+}
+
+body.dark-mode .modal-footer {
+  background-color: #444;
+}
+
+/* Modal Button Styles */
+body.dark-mode .btn-close {
+  color: white;
+}
+
+body.dark-mode .btn-close:hover {
+  color: #ddd;
+}
+
+/* Container and Card Styles */
+body.dark-mode .container {
+  background-color: #121212;
+}
+
+body.dark-mode .card {
+  background-color: #333;
+  border-color: #444;
+}
+
+body.dark-mode .card-header {
+  background-color: #444;
+  color: white;
+}
+
+body.dark-mode .card-body {
+  background-color: #333;
+}
+
+/* Toggle Button Styles */
+body.dark-mode .btn-secondary {
+  background-color: #444;
+  border-color: #444;
+  color: white;
+}
+
+body.dark-mode .btn-secondary:hover {
+  background-color: #555;
+  border-color: #555;
+}
