@@ -1,4 +1,8 @@
 fastapi
-uvicorn
-motor
-redis
+uvicorn[standard]
+pymongo
+python-dotenv
+pydantic
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
