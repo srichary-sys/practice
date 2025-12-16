@@ -1,8 +1,21 @@
-fastapi
-uvicorn[standard]
-pymongo
-python-dotenv
-pydantic
-python-multipart
-python-jose[cryptography]
-passlib[bcrypt]
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+gunicorn>=21.2
+
+python-dotenv>=1.0
+python-multipart>=0.0.9
+
+pydantic>=2.6
+email-validator>=2.1
+
+requests>=2.31
+aiofiles>=23.2
+
+# Security / Auth (JWT)
+python-jose[cryptography]>=3.3
+passlib[bcrypt]>=1.7
+cryptography>=42.0
+
+# Database (MongoDB)
+pymongo>=4.6
+motor>=3.3
